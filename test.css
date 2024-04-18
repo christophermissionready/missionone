@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header style */
+header {
+    padding: 40px;
+    text-align: center;
+    background-image: url(https://starloggers.files.wordpress.com/2019/05/game-of-thrones-season-8-cast.jpg);
+    background-size: cover;
+    background-position-y: 28%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+    position: absolute;
+    border: 0;
+    padding-left: 31%;
+}
+
+/* Style nav bar as flexbox */
+nav {
+    display: flex;
+    background-color: maroon;
+}
+
+/* Style nav bar links */
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    navn main {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    nav, main {
+        flex-direction: column;
+        font-size: 12px;
+    }
+}
+
+/* Column container */
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Left column */
+#left {
+    flex-basis: 20%;
+    background-color: maroon;
+    padding: 20px;
+    color: white;
+}
+
+input[type=text], input[type=email]{
+    padding: 2px 2px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid purple;
+}
+
+input[type=radio]{
+    width: 10px;
+}
+
+
+
+/* Right column */
+#right {
+    flex-basis: 80%;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: maroon;
+    color: white;
+}
+
+
+
+
+
+.image-container {
+    display:flex;
+    position: relative;
+    
+}
+
+c {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    font-size: 40px;
+    opacity: 0;
+    color: white;
+    
+}
+c:hover {
+    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.dueler1{
+    position:relative;
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/0*q3MYmBGxdCgyS7st.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover center;
+}
+
+.dueler1:hover{
+    transition: 1s;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.dueler2{
+    position:relative;
+    background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/05/13/06/game-of-thrones-the-mountain.jpg?width=1200);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+
+.dueler2:hover {
+    transition: 1s;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.dueler3{
+    position:relative;
+    background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/game-of-thrones/c/c5/Eddard_stark_and_ice.jpg);
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+}
+
+.dueler3:hover {
+    transition: 1s;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.dueler4{
+    position:relative;
+    background-image: url(https://watchersonthewall.com/wp-content/uploads/2017/12/stannis.jpg);
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+}
+
+.dueler4:hover {
+    transition: 1s;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.dueler5{
+    position:relative;
+    background-image: url(https://hips.hearstapps.com/elleuk.cdnds.net/17/31/768x576/1501747494-game-of-thrones-castles-1501267346.png?resize=1200:*);
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+}
+
+.dueler5:hover {
+    transition: 1s;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.dueler6{
+    position:relative;
+    background-image: url(https://www.cnet.com/a/img/resize/bc2eaa95b16ccd3d8382d350205ca63e167e1c9e/hub/2019/05/20/c8cacca4-5109-4859-a65a-92c1daf66892/game-of-thrones-season-8-episode-6-sansa-crown.jpg?auto=webp&width=1920);
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+}
+
+.dueler6:hover {
+    transition: 1s;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.dueler7{
+    position:relative;
+    background-image: url(https://pyxis.nymag.com/v1/imgs/de3/c44/b2e9ee2defa2334bf9c85139900e70bb00-game-of-thrones-16.jpg);
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+}
+
+.dueler7:hover {
+    transition: 1s;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.dueler8{
+    position:relative;
+    background-image: url(https://static.hbo.com/content/dam/hbodata/series/game-of-thrones/character/s5/melisandre-1920.jpg?w=1200);
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+}
+
+.dueler8:hover {
+    transition: 1s;
+    opacity: 30%;
+    cursor: pointer;
+}
